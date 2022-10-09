@@ -6,7 +6,7 @@
         {
             Console.WriteLine("please enter your choice");
             Console.WriteLine("-------------------------");
-            Console.WriteLine("1.fibonacci Series\n2.PerfectNo\n3.ReverseNo");
+            Console.WriteLine("1.fibonacci Series\n2.PerfectNo\n3.ReverseNo\n4.PrimeNo");
             int choice = Convert.ToInt32(Console.ReadLine());
             switch (choice)
             {
@@ -19,11 +19,11 @@
                 case 3:
                     ReverseNo.findReverse();
                     break;
+                case 4:
+                    PrimeNo.checkprime();
+                    break;
                 default:
                     break;
-
-
-
             }
         }
     }
