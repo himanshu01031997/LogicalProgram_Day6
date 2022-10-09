@@ -6,20 +6,20 @@
         {
             Console.WriteLine("please enter your choice");
             Console.WriteLine("-------------------------");
-            Console.WriteLine("1.fibonacci series\n");
+            Console.WriteLine("1.fibonacci series\n2.Perfect No\n");
             int choice= Convert.ToInt32(Console.ReadLine());
             switch (choice)
             {
                 case 1:
                     FibonacciSeries.CalculateFibonacci();
                     break;
+                case 2:
+                    PerfectNo.CheckPerfectno();
+                    break;
                     default:
                     break;
 
             }
-            // FibonacciSeries.CalculateFibonacci();
-            //PerfectNo.CheckPerfectno();
-           // ReverseNo.findReverse();
         }
     }
 }
