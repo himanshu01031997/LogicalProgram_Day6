@@ -17,9 +17,7 @@
                     break;
 
             }
-            // FibonacciSeries.CalculateFibonacci();
-            //PerfectNo.CheckPerfectno();
-           // ReverseNo.findReverse();
+            
         }
     }
 }
